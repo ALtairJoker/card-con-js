@@ -10,7 +10,7 @@ function compraTotal () {
     // operacion para el total y cantidad
 
     resultado = Number(precio.textContent) * Number(cantidad.value);
-    total.innerHTML = resultado;
+    total.innerHTML = resultado.toLocaleString('de-De');
     cantidadFinal.innerHTML = cantidad.value
 
     // seleccionando variable color y agregandolo

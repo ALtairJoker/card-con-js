@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 JS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="grid">
+        <div class="card" id="card">
+            <img src="assets/img/llaima.jpg" alt="">
+            <h3>Foto paisaje volcán Llaima</h3>
+            <input type="text" id="cantidad" placeholder="Catidad">
+            <input type="text" name="color" id="color" placeholder="Color">
+            <p >Precio: <span id="precio">12000</span></p>
+            <button id="boton" onclick="compraTotal()" >Calcular Total</button>
+        </div>
+        <div class="resultado">
+            <h2>Total: $ <span id="total">0</span></h2>
+            <h2>Cantitad: <span id="cantidadFinal">0</span></h2>
+            <div class="colorFinal"><h2>Color:</h2> <div class="circulo" id="circulo"></div></div>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.card {
+    color: aliceblue;
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+    padding: 100px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(124, 167, 39);
+    border-radius: 8%;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    background-color: peru;
+    padding: 8px 30px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+button:focus {
+    background-color: gray;
+}
+
+.circulo {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+}
+
+.colorFinal {
+    display: flex;
+}
+
+.resultado{
+    margin-top: 300px;
+    margin-left: -150px;
+}

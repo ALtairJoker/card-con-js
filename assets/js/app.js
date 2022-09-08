@@ -14,6 +14,7 @@ function compraTotal () {
     cantidadFinal.innerHTML = cantidad.value
 
     // seleccionando variable color y agregandolo
+    
     let color = document.querySelector('#color');
     let card = document.querySelector('#card');
     let circulo = document.querySelector('#circulo');
